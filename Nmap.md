@@ -2,6 +2,9 @@
 
 Nmap est un scanner de ports très populaire.
 
+## Sélection des ports à scanner
+
 > [!WARNING]
 > Par défaut, Nmap ne va scanner que les 1000 premiers ports.
 
+`nmap -p80` Scan du port 80 uniquement
