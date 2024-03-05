@@ -10,4 +10,8 @@ Télécharger HashID
 
 Le lancer
 
-`python hash-id.py`
+`python3 hash-id.py`
+
+Il suffit ensuite de saisir un hash pour identifier les possibles fonctions de hash.
+
+![Screenshot résultat HashID](main/images/hash_id.png)
