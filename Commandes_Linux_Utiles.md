@@ -14,4 +14,5 @@ Le lancer
 
 Il suffit ensuite de saisir un hash pour identifier les possibles fonctions de hash.
 
-![Screenshot résultat HashID](main/images/hash_id.png)
+![Screenshot résultat HashID](https://raw.githubusercontent.com/watussi-cyber/Base_Connaissance_Cybersecurite/main/images/hash_id.png)
+
