@@ -39,3 +39,71 @@ ou
 Supprimer des caractères (pour n’avoir que des chiffres par exemple)
 
 `cat fichier.txt | tr -d '[a-zA-Z: ]'`
+
+## Installation de SecLists
+
+Pour obtenir, nottament, les wordlists
+
+`git clone https://github.com/danielmiessler/SecLists.git`
+
+## Tree
+
+Pour afficher l'arborescence sous forme d'arbre
+
+`tree`
+
+## Locate
+
+Pour chercher des fichiers
+
+`locate <pattern>`
+
+## Pkill
+
+Killer un processus sans spécifier son ID
+
+`pkill -f <nom du process>`
+
+## Htop
+
+Top en plus joli ^^
+
+`htop`
+
+## SS
+
+Afficher les sockets ouverts
+
+`ss -tulpn`
+
+## Netstat
+
+Afficher les connexions / ports ouverts
+
+`netstat -tulpn`
+
+## ARP
+
+Afficher le cache ARP
+
+`arp -a`
+
+On peut également l'afficher ainsi
+
+`cat /proc/net/arp`
+
+Vider le cache pour une adresse précise
+
+`arp -d <adresse>`
+
+Vider le cache intégralement
+
+`for e in $(arp -a | sed -n 's/.*(\([^()]*\)).*/\1/p'); do arp -d $e; done`
+
+## Pbcopy
+
+Pour copier le résultat d'une commande dans le presse papier.
+
+Exemple avec la commande `ls`
+
+`ls | pbcopy`
