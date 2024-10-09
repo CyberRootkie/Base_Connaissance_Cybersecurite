@@ -11,7 +11,7 @@ Gobuster est un outil de brute-force permettant de découvrir des URLs, des rép
 
 `gobuster dir -u https://www.example.com -w wordlist.txt -x .php,.html`
 
-## Recherche d'entrées DNS'
+## Recherche d'entrées DNS
 
 `gobuster dns -d example.com -w wordlist.txt`
 
